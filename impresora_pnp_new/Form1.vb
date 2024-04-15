@@ -31,7 +31,9 @@
     'Imprimir Factura
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
 
+        'Cambios para Git
         ProgressBar1.Style = ProgressBarStyle.Marquee
+
         ProgressBar1.MarqueeAnimationSpeed = 10
 
         DateTimePicker1.Value = Now()

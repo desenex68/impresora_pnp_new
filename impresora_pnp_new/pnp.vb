@@ -14,6 +14,7 @@ Module pnp
     <DllImport("pnpdlltest.dll", CallingConvention:=CallingConvention.StdCall, CharSet:=CharSet.Ansi)>
     Private Function PFabrepuerto(ByVal puerto As String) As IntPtr
     End Function
+    'Cambios para Git
     <DllImport("pnpdlltest.dll", CallingConvention:=CallingConvention.StdCall, CharSet:=CharSet.Ansi)>
     Private Function PFabrefiscal(ByVal razon As String, ByVal rif As String) As IntPtr
     End Function
